@@ -1,4 +1,10 @@
-pipenv --python 3
-pipevn shell
-pipenv install
+pipenv --python 3 // create a virtualenv once 
+pipevn shell // enter virtualenv
+pipenv install django // install any package once
+
 python manage.py runserver
+
+
+
+django-admin startproject name
+django-admin startapp name
