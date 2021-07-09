@@ -1,0 +1,4 @@
+pipenv --python 3
+pipevn shell
+pipenv install
+python manage.py runserver
