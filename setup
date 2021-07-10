@@ -4,7 +4,12 @@ pipenv install django // install any package once
 
 python manage.py runserver
 
-
-
 django-admin startproject name
 django-admin startapp name
+
+
+python3 -m pipenv # install pipenv
+
+$ pipenv install // Install from Pipfile, if there is one
+
+https://pipenv-fork.readthedocs.io/en/latest/
